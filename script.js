@@ -4,7 +4,7 @@ document.getElementById("openGiftButton").addEventListener("click", function() {
     document.getElementById("giftImage").style.display = "none";
     document.getElementById("giftContent").style.display = "block";
     document.getElementById("viewJourneyButton").style.display = "block";
-    typeMessage("typingEffect", "Selamat ulang tahun, Winda! Ini adalah cerita perjalanan cinta kita. Semoga selalu bahagia!", 50);
+    typeMessage("typingEffect", "🌸 Selamat Ulang Tahun, Winda Yani Hutasoit! 🌸", 50);
 });
 
 document.getElementById("viewJourneyButton").addEventListener("click", function() {
