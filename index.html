@@ -1,0 +1,58 @@
+// index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinta Dimas & Winda</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <audio id="backgroundMusic" loop autoplay>
+        <source src="romantic-music.mp3" type="audio/mpeg">
+    </audio>
+    
+    <header>
+        <h1>PERJALANAN CINTA DIMAS & WINDA</h1>
+    </header>
+    
+    <section id="gift-section">
+        <h2>Hadiah Spesial untuk Winda</h2>
+        <img src="gift.png" id="giftImage" class="clickable" alt="Kado"/>
+        <button id="openGiftButton">Buka Kado</button>
+        <div id="giftContent" class="hidden">
+            <p id="typingEffect"></p>
+            <button id="viewJourneyButton" class="hidden">Lihat Perjalanan Cinta</button>
+        </div>
+    </section>
+    
+    <section id="timeline" class="hidden">
+        <h2>Timeline Perjalanan</h2>
+        <div class="event fade-in">
+            <h3>Pertama Bertemu</h3>
+            <p>Hari Rabu, saat Dimas mengajak Winda keliling pusat kota Jakarta.</p>
+        </div>
+        <div class="event fade-in">
+            <h3>Momen Spesial</h3>
+            <p>Merayakan ulang tahun Dimas dengan kejutan dari Winda.</p>
+        </div>
+    </section>
+    
+    <section id="gallery" class="hidden">
+        <h2>Galeri Kenangan</h2>
+        <div class="gallery-container">
+            <img src="photo1.jpg" alt="Momen bahagia bersama">
+            <img src="photo2.jpg" alt="Perjalanan seru kita">
+            <img src="photo3.jpg" alt="Kenangan tak terlupakan">
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    
+    <button id="replyButton">Balas</button>
+</body>
+</html>
